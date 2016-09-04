@@ -40,7 +40,7 @@ Hack Dalvik VM 解决 Android 2.3 DEX/LinearAllocHdr 超限
 
 > 要预防 65536 问题，其实可以理解为就是如何尽可能的控制目标 method 数。
 
-关于第三方库的选择（尽量用小而美的工具包来辅助开发）
+关于第三方库的选择(尽量用小而美的工具包来辅助开发)
 
 - JSON 类库的选择，在 Jackson, Gson, Fastjson 中，综合来说，Gson 比较均衡，method 总数在 1k 以内；
 - 不建议使用 Guava 这个工具包，method 总数在 1w 以上，可以考虑用 Apache 的 commons 相关工具包代替，另外，[Jodd](https://github.com/oblac/jodd) 也是不错的选择； 
@@ -60,14 +60,14 @@ Hack Dalvik VM 解决 Android 2.3 DEX/LinearAllocHdr 超限
 - 问题出现的原因是什么？
   - 低级错误，粗心大意造成？
   - 对某些原理(API)不了解？
-  - 确实是某（些）疑难杂症？
+  - 确实是某(些)疑难杂症？
 - 如何解决？
   - Review, Review, Review
   - 查文档，找相关资料
-  - 善用 Google 找解决方案（大部分问题都是有靠谱的方案的）
+  - 善用 Google 找解决方案(大部分问题都是有靠谱的方案的)
 
 概括来说就是：
-> 发现问题 - 分析问题 - 解决问题 - 总结经验（教训）
+> 发现问题 - 分析问题 - 解决问题 - 总结经验(教训)
 										
 ## 参考资料
 
