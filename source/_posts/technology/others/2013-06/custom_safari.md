@@ -7,7 +7,7 @@ tags:
 ---
 ## safari-font.css
 
-```
+```css
 body {
   zoom: 100%;
 }
