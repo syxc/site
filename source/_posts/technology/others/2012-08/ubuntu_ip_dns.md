@@ -11,7 +11,7 @@ tags:
 
 ## 接着修改相应内容，例如
 
-```sh
+```bash
 auto eth0
 iface eth0 inet static  # static 固定ip，dhcp 动态ip
 address 192.168.1.88

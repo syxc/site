@@ -33,7 +33,7 @@ subprocess installed post-installation script returned error exit status 1
 
 A web search quickly revealed the solution:
 
-```sh
+```bash
 mkdir /var/cache/debconf
 sudo apt-get install debconf --reinstall
 ```

@@ -22,7 +22,7 @@ Execute from terminal
 `/Library/Application Support/Jenkins/Uninstall.command`
 
 If the uninstallation script cannot be found, use:
-```sh
+```bash
 sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
 sudo rm /Library/LaunchDaemons/org.jenkins-ci.plist
 sudo rm -rf /Applications/Jenkins "/Library/Application Support/Jenkins" /Library/Documentation/Jenkins
@@ -33,7 +33,7 @@ and if you want to get rid of all the jobs and builds:
 `sudo rm -rf /Users/Shared/Jenkins`
 
 and to delete the jenkins user and group (if you chose to use them):
-```sh
+```bash
 sudo dscl . -delete /Users/jenkins
 sudo dscl . -delete /Groups/jenkins
 ```
