@@ -1,5 +1,10 @@
 ---
 title: How to compress and uncompress files and folders in OSX 10.9 Mavericks using Terminal
+date: 2014-08
+tags:
+- macOS
+- Ubuntu
+- Shell
 ---
 **ZIP – Cross Platform**
 

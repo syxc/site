@@ -1,5 +1,9 @@
 ---
 title: ML-10.8 改 Safari 字型設定更美觀
+date: 2013-06
+tags:
+- macOS
+- Safari
 ---
 ## safari-font.css
 

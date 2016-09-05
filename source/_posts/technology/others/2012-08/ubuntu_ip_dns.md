@@ -1,5 +1,8 @@
 ---
 title: 在终端配置 Ubuntu 的 IP/DNS
+date: 2012-08
+tags:
+- Ubuntu
 ---
 ## 启动终端，打开配置文件
 

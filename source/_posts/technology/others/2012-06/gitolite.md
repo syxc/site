@@ -1,5 +1,9 @@
 ---
 title: 使用 Gitolite 搭建 Git 服务器
+date: 2012-06
+tags:
+- Git
+- Ubuntu
 ---
 ## 需要用到的软件
 

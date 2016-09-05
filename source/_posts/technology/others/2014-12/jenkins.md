@@ -1,5 +1,8 @@
 ---
 title: 在 OSX 上面安装 Jenkins
+date: 2014-12
+tags:
+- Jenkins
 ---
 Starting/stopping the service
 
