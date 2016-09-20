@@ -29,6 +29,23 @@ tags:
 
 然后执行 `sudo gem install cocoapods --pre` 升级 Cocoapods 到最新的 1.1.0.rc.2 版本(截至目前是)，然后 `pod lib lint` 的问题就解决了。
 
+## 环境
+
+- macOS 10.12 (16A323)
+- Xcode 8.0 (8A218a)
+- Swift 2.3 & 3.0
+- pod env
+  ```
+   CocoaPods : 1.1.0.rc.2
+        Ruby : ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
+    RubyGems : 2.6.6
+        Host : Mac OS X 10.12 (16A323)
+       Xcode : 8.0 (8A218a)
+         Git : git version 2.8.4 (Apple Git-73)
+Ruby lib dir : /usr/local/Cellar/ruby/2.3.1/lib
+Repositories : master - https://github.com/CocoaPods/Specs.git @ 4c6b006e04df8bde3561a9517e7aa3997767fa50
+  ```
+
 ## 参考
 
 - [https://ruby.taobao.org/](https://ruby.taobao.org/)
